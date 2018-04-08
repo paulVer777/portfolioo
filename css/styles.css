@@ -1,5 +1,4 @@
 
-
 *
 {
     margin:0;
@@ -121,7 +120,7 @@ text-align: center;
     font-size: 0.9em;
     margin-top:2em;
     padding:1em;
-    background-color:black;
+    background-color:#252525;
     text-align: center;
     letter-spacing:0.3em;
     color: white;
@@ -138,6 +137,7 @@ text-align: center;
     background-size: cover;
     filter: brightness(80%);
     font-size: 3vh;
+
 }
 
 .content__container div
@@ -180,7 +180,7 @@ h2
     background-position: center;
     background-size: cover;
     font-size: 3vh;
-
+    scroll-behavior:smooth;
 }
 
 @media screen and (max-width:605px) {
@@ -226,5 +226,20 @@ h3
 {
 
     opacity: 0.8;
+
+}
+
+.up
+{
+position: fixed;
+bottom:5em;
+    right: 5vh;
+
+
+}
+.up a
+{
+    color: #252525;
+
 
 }
